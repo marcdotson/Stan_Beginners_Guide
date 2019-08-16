@@ -34,3 +34,7 @@ The **Data** block is used to
 The **Parameter** block is used to
 
 The **Model** block is used to
+
+### How do you start using Stan?
+
+Stan runs in the backgroud of r. First open a new r scrip
