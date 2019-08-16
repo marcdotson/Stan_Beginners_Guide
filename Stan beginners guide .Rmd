@@ -1,6 +1,6 @@
 ---
 title: "Stan Beginners Guide"
-output: html_document
+output: github_document
 ---
 
 This guide will introduce first time users to Stan inlcuding what it does, how it works, what it looks like, and how to begin using it.
@@ -26,4 +26,8 @@ There are three required blocks in Stan code:
 
 ```Model```
 
+The **Data** block is used to 
 
+The **Parameter** block is used to 
+
+The **Model** block is used to 
