@@ -3,26 +3,27 @@ title: "Stan Beginners Guide"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+This guide will introduce first time users to Stan inlcuding what it does, how it works, what it looks like, and how to begin using it.
 
-## R Markdown
+---
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+#### What is Stan and why do we need it?
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Stan is a programming languge that helps us to run larger and more complex beysian models. Without Stan it would be impossible to run many of the models that we would like to run. 
 
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
+#### What does Stan do?
 
-You can also embed plots, for example:
+Stan works by running complex calculations in the background of our code. First you complie a stan model, then you send data to stan and it will run the model and then stan will send back any important information. 
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+#### What does Stan code look like? 
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+There are three required blocks in Stan code: 
+
+```Data```
+
+```Parameter``` 
+
+```Model```
+
+
